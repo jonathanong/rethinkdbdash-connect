@@ -1,8 +1,8 @@
 {
   "name": "rethinkdbdash-connect",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Easily connect to RethinkDB",
-  "main": "index.js",
+  "main": "lib",
   "scripts": {
     "lint": "standard lib/*.js test/*.js",
     "test": "mocha test",
@@ -20,6 +20,5 @@
   },
   "files": [
     "lib"
-  ],
-  "main": "lib"
+  ]
 }
