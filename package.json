@@ -13,12 +13,17 @@
   "repository": "jonathanong/rethinkdbdash-connect",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "^2.4.5",
-    "nyc": "^6.4.4",
+    "mocha": "^3.0.0",
+    "nyc": "^8.1.0",
     "rethinkdbdash": "^2.3.12",
-    "standard": "^7.1.0"
+    "standard": "^8.0.0"
   },
   "files": [
     "lib"
-  ]
+  ],
+  "nyc": {
+    "exclude": [
+      "node_modules"
+    ]
+  }
 }
